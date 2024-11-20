@@ -35,6 +35,18 @@ COLORS = [
 SHAPES = [
     [[1,1], [1,1]], #BLOCKSHAPE
     [[1,1,0], [0,1,1]], #Z SHAPE
-    
-          
-          ]
+    [[0,1,1], [1,1,0]], #other z shape
+    [[1,1,1], [1,0,0]], 
+    [[1,1,1], [0,0,1]],
+    [[1,1,1,1]], #rectangle
+    [[1,1,1] [0,1,0]],
+    ]
+
+DAS_DELAY= 5
+SOFT_DROP_SPEED = 50
+DAS_REPEAT = 5
+LOCK_DELAY = 15000
+MOVE_RESET_LIMIT = 15
+
+class Tetris:
+    def __init__(self)
